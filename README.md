@@ -7,10 +7,14 @@ AI project applying machine learning in Python to classify software quality. Imp
 - Platform: Google Colab
 
 
+
+
 📌 Overview
 
 This repository contains my CSE422 (Artificial Intelligence) lab project, completed in Fall 2025, where I applied machine learning techniques to analyze and predict software quality labels using Python.
 The project covers the entire ML pipeline — from exploratory data analysis (EDA) and data preprocessing to supervised classification and unsupervised clustering.
+
+
 
 
 🎯 Objectives
@@ -24,6 +28,8 @@ The project covers the entire ML pipeline — from exploratory data analysis (ED
 -Treat the problem as unsupervised and apply K-Means clustering
 
 -Compare models using standard evaluation metrics
+
+
 
 
 📊 Dataset Information
@@ -42,6 +48,10 @@ The project covers the entire ML pipeline — from exploratory data analysis (ED
 
 -Stratified train–test split
 
+
+
+
+
 🔍 Exploratory Data Analysis (EDA)
 
 -Target class distribution analysis (imbalance check)
@@ -54,6 +64,8 @@ The project covers the entire ML pipeline — from exploratory data analysis (ED
 
 🤖 Machine Learning Models Used
 
+
+
 ✅ Supervised Learning
 
 -Logistic Regression
@@ -61,6 +73,8 @@ The project covers the entire ML pipeline — from exploratory data analysis (ED
 -Naive Bayes
 
 -Neural Network (MLPClassifier)
+
+
 
 🔄 Unsupervised Learning
 
@@ -71,6 +85,9 @@ The project covers the entire ML pipeline — from exploratory data analysis (ED
 -Cluster visualization
 
 -Cluster vs Quality Label comparison
+
+
+
 
 📈 Model Evaluation Metrics
 
@@ -90,6 +107,9 @@ Each supervised model was evaluated using:
 
 -ROC Curves (Multi-class)
 
+
+
+
 📊 Comparative bar charts and visualizations are included for clear performance analysis.
 
 
@@ -106,6 +126,8 @@ Libraries:
 -Scikit-learn
 
 
+
+
 ▶️ How to Run (Google Colab)
 
 -Open Google Colab
@@ -118,6 +140,9 @@ Libraries:
 
 -No additional setup required.
 
+
+
+
 🧠 Key Findings
 
 -Neural Network achieved the best overall performance due to non-linear learning capability
@@ -127,6 +152,10 @@ Libraries:
 -Naive Bayes showed lower performance due to feature dependency
 
 -K-Means clustering revealed meaningful natural groupings aligned with quality labels
+
+
+
+
 
 ⚠️ Challenges Faced
 
